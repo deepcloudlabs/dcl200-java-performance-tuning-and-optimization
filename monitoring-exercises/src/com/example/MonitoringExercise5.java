@@ -9,7 +9,7 @@ public class MonitoringExercise5 {
 		for (int j=0;j<2_000_000;++j) {
 			String buffer= "";
 		for (int i = 0; i < 10_000; ++i) {
-			buffer += Integer.toString(1);
+			buffer += Integer.toString(1); // Generating Garbage
 			set.add(buffer);
 			// System.gc();
 		}
