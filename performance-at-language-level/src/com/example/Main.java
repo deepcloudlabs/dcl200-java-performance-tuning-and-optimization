@@ -14,6 +14,8 @@ public class Main {
             //logger.info(String.format("Log message %d",i));
 
         }
+        System.gc(); // HotSpot -> Full GC
+        // -XX:+DisableExplicitGC
 
     }
 }
